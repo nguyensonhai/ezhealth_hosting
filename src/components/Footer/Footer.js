@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <section className="footer">
       <div>
-        <img src={img} alt="" />
+        <a href="#home">
+          <img src={img} alt="" />
+        </a>
       </div>
       <div className="footer__content">
         <div className="footer__item footer__item__l">
@@ -17,7 +19,7 @@ const Footer = () => {
             </p>
           </div>
           <p>
-            ©2020 Ezhealth@ by EzTe©h, inc, Terms of Service I Privacy Policy
+            ©2020 Ez Health@ by EzTe©h, inc, Terms of Service I Privacy Policy
           </p>
         </div>
         <div className="footer__item">
@@ -33,7 +35,7 @@ const Footer = () => {
         <div className="footer__item">
           <h3>About us</h3>
           <ul>
-            <li>About Ezhealth</li>
+            <li>About Ez Health</li>
             <li>Contact us</li>
             <li>Features </li>
             <li>Careers</li>

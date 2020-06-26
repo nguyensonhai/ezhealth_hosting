@@ -25,12 +25,10 @@ class App extends Component {
             <Navbar />
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/blog" component={Blog} />
               <Route exact path="/products" component={Products} />
               <Route path="/products/android" component={ProductAndroid} />
               <Route path="/products/ios" component={ProductIOS} />
               <Route exact path="/products/ios" component={SignUp} />
-              <Route exact path="/support" component={Support} />
               <Route exact path="/discuss" component={Discuss} />
               <Route exact path="/purchase" component={Purchase} />
               <Route exact path="/contact" component={Contact} />

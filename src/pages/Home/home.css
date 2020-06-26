@@ -1,6 +1,4 @@
 .Home__container {
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
   margin-bottom: 0px;
 }
 .Home__slider {
@@ -18,4 +16,7 @@
 .Home__slider__left h1 {
   font-size: 2.2rem;
   letter-spacing: 4px;
+}
+html {
+  scroll-behavior: smooth;
 }

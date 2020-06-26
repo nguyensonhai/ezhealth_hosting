@@ -14,10 +14,11 @@ class Login extends Component {
       .signInWithEmailAndPassword(user, pass)
       .then(() => {
         console.log("completed");
-        alert("hello Kha");
+        alert("Hello " + user);
       })
       .catch(function (error) {
         console.log(error);
+        alert(error);
       });
   };
 

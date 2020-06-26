@@ -62,30 +62,6 @@ const Navbar = () => {
               </ul>
             </div>
           </li>
-          <li className="header__sub Hover-bottom-line">
-            <Link
-              to="/blog"
-              class="header__item"
-              onClick={() => {
-                console.log(theme);
-              }}
-              style={{ color: theme.textcolornav__left }}
-            >
-              Blog
-            </Link>
-          </li>
-          <li className="header__sub Hover-bottom-line">
-            <Link
-              to="/support"
-              class="header__item"
-              onClick={() => {
-                toggleTheme(false);
-              }}
-              style={{ color: theme.textcolornav__left }}
-            >
-              Support
-            </Link>
-          </li>
         </ul>
       </nav>
       <nav className="header__nav__right">

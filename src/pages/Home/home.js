@@ -13,32 +13,37 @@ class Home extends Component {
     const { isHomepage, light, dark } = this.context;
     const theme = isHomepage ? dark : light;
     return (
-      <div className="Home__container center" style={{ background: theme.hbg }}>
+      <div
+        className="Home__container center"
+        id="home"
+        style={{ background: theme.hbg }}
+      >
         <section className="Home__slider">
           <div className="Home__slider__left">
-            <h1>Healthy living.</h1>
+            <h1>Healthy living</h1>
             <h1>Simplified</h1>
             <p>
-              Take control of your goals. Track calories, breadown ingredients
-              and log activities with EzHealth
+              Take control of your goals. Track calories, breadown ingredients,
+              log activities and plan your healthy life cycle with Ez Health.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              className="product__info__btnDownload "
-              style={{ marginTop: "30px" }}
-            >
-              <i class="fa fa-arrow-down"></i>
-              DOWNLOAD
-            </motion.button>
+            <a data-scroll href="#download">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                className="product__info__btnDownload "
+                style={{ marginTop: "30px" }}
+              >
+                <i class="fa fa-arrow-down"></i>
+                GET IT NOW
+              </motion.button>
+            </a>
           </div>
-        </section>
-        <section className="Home__products">
-          <ProductIOS />
         </section>
         <section className="Home__products">
           <ProductAndroid />
         </section>
-
+        <section className="Home__products">
+          <ProductIOS />
+        </section>
         <section className="Home__features"></section>
         <Footer />
       </div>
