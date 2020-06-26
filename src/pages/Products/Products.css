@@ -1,0 +1,81 @@
+.Products__header {
+  position: absolute;
+  top: 12%;
+}
+.Products__header ul {
+  display: flex;
+  list-style-type: none;
+}
+.Products__header ul li {
+  margin: 13px 33px;
+}
+.Products__header ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+.Products__header ul li:hover a {
+  border-bottom: 2px solid #17b2ac;
+}
+.product {
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+.product h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.product__info {
+  padding: 10px;
+  justify-self: center;
+  align-self: center;
+  text-align: left;
+}
+.product__info__IOS {
+  text-align: right;
+}
+.product__info__btnDownload {
+  letter-spacing: 2px;
+  border: none;
+  margin-top: 50px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: white;
+  background: #17b2ac;
+  border: 2px solid #17b2ac;
+}
+.product__info__btnDownload i {
+  color: white;
+  margin-right: 8px;
+}
+.product__info__btnDownload:hover,
+.product__info__btnDownload:hover i {
+  outline: none;
+  background: #fff;
+  color: #17b2ac;
+}
+.product__info__btnDownload:focus {
+  outline: none;
+}
+.productandroid__slider {
+  padding: 4.7rem;
+}
+.productandroid__slider .owl-theme {
+  position: relative;
+  width: 23rem;
+  margin: 0 auto;
+}
+.productandroid__slider .item__ {
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.productandroid__slider .item__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
