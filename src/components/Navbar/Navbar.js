@@ -111,7 +111,7 @@ const Navbar = () => {
               }}
               style={{ color: theme.textcolornav__right }}
             >
-              My Account
+              Account
             </Link>
             <div
               className="Account_dropdown"
