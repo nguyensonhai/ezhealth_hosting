@@ -56,7 +56,7 @@ const ProductIOS = () => {
       </div>
       <div className="product__info product__info__IOS">
         <h1 style={{ color: theme.text_h }}>Ez Health for IOS</h1>
-        <p style={{ color: theme.text_p }}>
+        <p style={{ color: theme.text_p, textAlign: "justify" }}>
           Ez Health is something that is on everyone’s mind at some point.
           Better health can lead to lower hospital bills, feeling better, and
           doing more things. Thankfully, there are a ton of applications on

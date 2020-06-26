@@ -17,9 +17,9 @@ const Navbar = () => {
         }}
       >
         <img src={icon} alt="logo" />
-        <p>
+        {/* <p>
           Ez<span>Health</span>
-        </p>
+        </p> */}
       </Link>
       <nav className="header__nav__left">
         <ul>
@@ -43,7 +43,9 @@ const Navbar = () => {
                     onClick={() => {
                       toggleTheme(false);
                     }}
-                    style={{ color: theme.textcolornav__left }}
+                    style={{
+                      color: theme.textcolornav__left,
+                    }}
                   >
                     Ezhealth for Android
                   </Link>
@@ -66,18 +68,6 @@ const Navbar = () => {
       </nav>
       <nav className="header__nav__right">
         <ul>
-          <li class="header__sub Hover-bottom-line white-text">
-            <Link
-              to="/contact"
-              class="header__item "
-              onClick={() => {
-                toggleTheme(false);
-              }}
-              style={{ color: theme.textcolornav__right }}
-            >
-              Contact
-            </Link>
-          </li>
           <li class="header__sub  relative white-text">
             <Link
               to="/account"
