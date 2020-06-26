@@ -10,13 +10,29 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .Home__slider__left {
-  padding: 13rem 10rem;
+  padding: 7rem 5rem;
+  margin-bottom: 10rem;
   text-align: left;
 }
 .Home__slider__left h1 {
-  font-size: 2.2rem;
+  font-size: 4.2rem;
   letter-spacing: 4px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
 }
 html {
   scroll-behavior: smooth;
+}
+#health {
+  padding-left: 20px;
+  color: #292d34;
+}
+#ez {
+  color: #17b2ac;
+}
+
+h2 {
+  font-size: 2 rem;
 }

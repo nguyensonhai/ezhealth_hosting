@@ -20,8 +20,11 @@ class Home extends Component {
       >
         <section className="Home__slider">
           <div className="Home__slider__left">
-            <h1>Healthy living</h1>
-            <h1>Simplified</h1>
+            <div className="title">
+              <h1 id="ez">Ez</h1>
+              <h1 id="health">Health</h1>
+            </div>
+            <h2>Healthy living</h2>
             <p>
               Take control of your goals. Track calories, breadown ingredients,
               log activities and plan your healthy life cycle with Ez Health.

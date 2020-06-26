@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
           </div>
           <p>
-            ©2020 Ez Health@ by EzTe©h, inc, Terms of Service I Privacy Policy
+            ©2020 Ez Health@ by EZTE©H, inc, Terms of Service I Privacy Policy
           </p>
         </div>
         <div className="footer__item">
