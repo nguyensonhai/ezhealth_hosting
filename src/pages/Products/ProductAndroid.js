@@ -18,18 +18,18 @@ const ProductAndroid = () => {
       <div className="product__info">
         <h1 style={{ color: theme.text_h }}>Ez Health for Android</h1>
         <p style={{ color: theme.text_p, textAlign: "justify" }}>
-          Ez Health is something that is on everyone’s mind at some point.
-          Better health can lead to lower hospital bills, feeling better, and
-          doing more things. Thankfully, there are a ton of applications on
+          Healthy is something that is on everyone’s mind at some point. Better
+          health can lead to lower hospital bills, feeling better, and doing
+          more things. Thankfully, there are a ton of applications on
           smartphones and tablets that can assist you in living better, eating
           better, and exercising more frequently. Most of the useful ones are
           either exercise apps, calorie counters, activity tracking apps, or
           some combination of all three. Let’s take a look at the best health
-          apps for Android! We put a bit of a focus on eating healthy with this
-          one. We have more health style app lists linked up just below and
-          throughout the article.
+          apps for Android! We put a bit of a focus on eating, fitness and plan
+          your healthy life cycle with this one. We have more colorful style
+          features for you.
         </p>
-        <a href="https://firebasestorage.googleapis.com/v0/b/ez-health.appspot.com/o/android%2Fezhealth-v.1.0.0.apk?alt=media&token=007f06d3-6470-41de-b3ad-b4c165bb422e">
+        <a href="https://firebasestorage.googleapis.com/v0/b/ez-health.appspot.com/o/android%2Fezhealth-v.1.0.0.apk?alt=media&token=450f0d1e-7ba2-4ae3-ac5e-b944b515cf9b">
           <motion.button
             whileHover={{ scale: 1.1 }}
             className="product__info__btnDownload"
