@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="footer__item footer__item__l">
           <div className="footer__item__logo">
             <img src={icon} alt="logo" />
-            <p>
-              Ez<span>Health</span>
+            <p style={{ paddingTop: 5 }}>
+              EZ<span> HEALTH</span>
             </p>
           </div>
           <p>
