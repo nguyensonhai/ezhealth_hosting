@@ -19,8 +19,7 @@ const Footer = () => {
             </p>
           </div>
           <p>
-            ©2020 Ez Health@ by Ez Ratech Software Ltd., inc, Terms of Service I
-            Privacy Policy
+            © 2020. Ez Health by Ez Ratech Software Corp. All rights reserved.
           </p>
         </div>
         <div className="footer__item">
@@ -37,7 +36,9 @@ const Footer = () => {
           <h3>About us</h3>
           <ul>
             <li>About Ez Health</li>
-            <li>Contact us</li>
+            <a href="mailto:ezratechsoftware@gmail.com">
+              <li>Contact us</li>
+            </a>
             <li>Features </li>
             <li>Careers</li>
           </ul>
